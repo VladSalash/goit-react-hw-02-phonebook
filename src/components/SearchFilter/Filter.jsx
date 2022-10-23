@@ -19,13 +19,9 @@ const Filter = ({value, onChange}) => {
 
 };
 
-// ContactList.propTypes = {
-
-//     good: PropTypes.number.isRequired,
-//     neutral: PropTypes.number.isRequired,
-//     bad: PropTypes.number.isRequired,
-//   total: PropTypes.number.isRequired,
-//   positivePercentage: PropTypes.number.isRequired,
-// }
+Filter.propTypes = {
+  value: PropTypes.string.isRequired,
+  onChange: PropTypes.func.isRequired,
+};
 
   export default Filter;
