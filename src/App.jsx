@@ -16,9 +16,7 @@ state = {
   filter: '',
 }
 
-//   formSubmitHandler = data => {
-//     console.log(data);
-// }
+
   addContact = ({name, number}) => {
 
     const id = nanoid();

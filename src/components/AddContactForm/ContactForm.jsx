@@ -26,7 +26,6 @@ class Form extends Component {
 
 
      this.props.onSubmit(this.state);
-    // this.setState({name: '', number: '',})
      this.reset();
    }
 
