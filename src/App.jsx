@@ -17,7 +17,7 @@ state = {
 }
 
 
-  addContact = ({name, number}) => {
+addContact = ({name, number}) => {
 
     const id = nanoid();
     const contact = {
